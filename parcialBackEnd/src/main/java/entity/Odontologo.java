@@ -1,6 +1,7 @@
 package entity;
 
 public class Odontologo {
+
     private String nroMatricula;
     private String nombre;
     private String apellido;

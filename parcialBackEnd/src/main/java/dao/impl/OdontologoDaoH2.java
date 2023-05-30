@@ -21,13 +21,17 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     @Override
     public Odontologo registrar(Odontologo odontologo) throws SQLException {
         Connection connection = null;
+
+        //no se establace la conexion, ademas desde la linea 25 a la 38, deberia ir dentro del bloque try
         connection.setAutoCommit(false);
+
 
         PreparedStatement ps = connection.prepareStatement("INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?)");
         ps.setString(1,odontologo.getNroMatricula());
         ps.setString(2,odontologo.getNombre());
         ps.setString(3,odontologo.getApellido());
         ps.execute();
+
 
         LOGGER.info("Se registró exitosamente el odontologo: " + odontologo);
         connection.commit();
