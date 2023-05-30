@@ -1,4 +1,4 @@
-package dao.impl;
+package parcialBackEnd.src.main.java.dao.impl;
 
 import dao.H2Connection;
 import dao.IDao;
@@ -19,31 +19,31 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
 
     @Override
-    public Odontologo registrar(Odontologo odontologo) throws SQLException {
+    public Odontologo registrar(Odontologo odontologo) {
         Connection connection = null;
-        connection.setAutoCommit(false);
 
-        PreparedStatement ps = connection.prepareStatement("INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?)");
-        ps.setString(1,odontologo.getNroMatricula());
-        ps.setString(2,odontologo.getNombre());
-        ps.setString(3,odontologo.getApellido());
-        ps.execute();
 
-        LOGGER.info("Se registró exitosamente el odontologo: " + odontologo);
-        connection.commit();
-
-        try{
+        try {
             connection = H2Connection.getConnection();
             connection.setAutoCommit(false);
 
+            PreparedStatement ps = connection.prepareStatement("INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?)");
+            ps.setString(1, odontologo.getNroMatricula());
+            ps.setString(2, odontologo.getNombre());
+            ps.setString(3, odontologo.getApellido());
+            ps.execute();
 
-        }catch (Exception e){
+            LOGGER.info("Se registró exitosamente el odontologo: " + odontologo + " en la base de datos.");
+            connection.commit();
+
+
+        } catch (Exception e) {
             LOGGER.error(e.getMessage());
             e.printStackTrace();
         } finally {
-            try{
+            try {
                 connection.close();
-            } catch (Exception ex){
+            } catch (Exception ex) {
                 LOGGER.error("Ha ocurrido un error al intentar cerrar la bdd. " + ex.getMessage());
                 ex.printStackTrace();
             }
@@ -54,7 +54,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     @Override
     public List<Odontologo> listar() {
         Connection connection = null;
-        List<Odontologo> odontologos= new ArrayList<>();
+        List<Odontologo> odontologos = new ArrayList<>();
 
         try {
             connection = H2Connection.getConnection();
@@ -64,24 +64,34 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 String nroMatricula = rs.getString(1);
                 String nombre = rs.getString(2);
                 String apellido = rs.getString(3);
-                Odontologo odontologo = new Odontologo(nroMatricula,nombre, apellido);
+                Odontologo odontologo = new Odontologo(nroMatricula, nombre, apellido);
                 odontologos.add(odontologo);
             }
 
-            LOGGER.info("Listado de todos los odontologos: " + odontologos);
+            LOGGER.info("Listado de todos los odontologos en base de datos: " + odontologos);
 
         } catch (Exception e) {
             LOGGER.error(e.getMessage());
             e.printStackTrace();
-
-        } finally {
-            try {
-                connection.close();
-            } catch (Exception ex) {
-                LOGGER.error("Ha ocurrido un error al intentar cerrar la bdd. " + ex.getMessage());
-                ex.printStackTrace();
+            if (connection != null) {
+                try {
+                    connection.rollback();
+                    System.out.println("Tuvimos un problema al intentar registrar el odontologo en la base de datos");
+                    e.printStackTrace();
+                } catch (SQLException exception) {
+                    LOGGER.error(exception.getMessage());
+                    exception.printStackTrace();
+                }
             }
+        }finally{
+                try {
+                    connection.close();
+                } catch (Exception ex) {
+                    LOGGER.error("Ha ocurrido un error al intentar cerrar la bdd. " + ex.getMessage());
+                    ex.printStackTrace();
+                }
+            }
+            return odontologos;
         }
-        return odontologos;
     }
-}
+

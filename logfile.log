@@ -1,0 +1,186 @@
+[2023-05-26 01:39:44] [ INFO ] [OdontologoDaoH2:54] service.OdontologoService@3911c2a7
+[2023-05-26 01:39:44] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 01:46:07] [ INFO ] [OdontologoDaoH2:54] service.OdontologoService@3911c2a7
+[2023-05-26 01:46:07] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:12:59] [ INFO ] [OdontologoDaoH2:54] service.OdontologoService@3f197a46
+[2023-05-26 02:12:59] [ ERROR] [OdontologoDaoH2:75] La base de datos puede que ya esté siendo utilizada: "C:/Users/marti/c9parcialBackEnd.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/marti/c9parcialBackEnd.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 02:12:59] [ ERROR] [OdontologoDaoH2:82] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 02:13:09] [ INFO ] [OdontologoDaoH2:54] service.OdontologoService@3f197a46
+[2023-05-26 02:13:09] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:14:06] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:14:06] [ INFO ] [OdontologoDaoH2:54] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:14:06] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:14:51] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:14:51] [ INFO ] [OdontologoDaoH2:54] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:14:52] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:17:18] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:17:18] [ INFO ] [OdontologoDaoH2:58] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:17:18] [ INFO ] [OdontologoDaoH2:72] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:19:16] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente.
+[2023-05-26 02:19:16] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente.
+[2023-05-26 02:19:16] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente.
+[2023-05-26 02:19:16] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente.
+[2023-05-26 02:20:15] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente.
+[2023-05-26 02:20:15] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente.
+[2023-05-26 02:20:15] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente.
+[2023-05-26 02:20:15] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente.
+[2023-05-26 02:26:15] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente.
+[2023-05-26 02:26:15] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente.
+[2023-05-26 02:26:15] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente.
+[2023-05-26 02:26:15] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente.
+[2023-05-26 02:27:47] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 02:27:47] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 02:27:47] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 02:27:47] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 02:28:32] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 02:28:32] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 02:28:32] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 02:28:32] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 02:36:58] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 02:36:58] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 02:36:58] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 02:36:58] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 02:37:08] [ ERROR] [OdontologoDaoH2:74] La base de datos puede que ya esté siendo utilizada: "C:/Users/marti/c9parcialBackEnd.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/marti/c9parcialBackEnd.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 02:37:08] [ ERROR] [OdontologoDaoH2:81] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 02:37:08] [ INFO ] [OdontologoDaoH2:58] []
+[2023-05-26 02:37:08] [ ERROR] [OdontologoDaoH2:74] La base de datos puede que ya esté siendo utilizada: "C:/Users/marti/c9parcialBackEnd.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/marti/c9parcialBackEnd.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 02:37:08] [ ERROR] [OdontologoDaoH2:81] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 02:37:22] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:37:22] [ INFO ] [OdontologoDaoH2:58] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:37:22] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:38:39] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:38:39] [ INFO ] [OdontologoDaoH2:58] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:38:39] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:39:27] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:39:27] [ INFO ] [OdontologoDaoH2:58] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:39:27] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:39:45] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}]
+[2023-05-26 02:40:31] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 1 */ 'mat3456' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 1 */ 'mat3456' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 02:40:31] [ INFO ] [OdontologoDaoH2:36] Se registró exitosamente el odontologo: Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'} en la base de datos.
+[2023-05-26 02:40:31] [ INFO ] [OdontologoDaoH2:36] Se registró exitosamente el odontologo: Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'} en la base de datos.
+[2023-05-26 02:40:31] [ INFO ] [OdontologoDaoH2:36] Se registró exitosamente el odontologo: Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'} en la base de datos.
+[2023-05-26 02:47:47] [ ERROR] [OdontologoDaoH2:74] La base de datos puede que ya esté siendo utilizada: "C:/Users/marti/c9parcialBackEnd.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/marti/c9parcialBackEnd.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 02:47:47] [ ERROR] [OdontologoDaoH2:81] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 02:48:09] [ ERROR] [OdontologoDaoH2:74] La base de datos puede que ya esté siendo utilizada: "C:/Users/marti/c9parcialBackEnd.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/marti/c9parcialBackEnd.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 02:48:09] [ ERROR] [OdontologoDaoH2:81] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 02:48:19] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:25:55] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:26:39] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 1 */ 'mat3456' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 1 */ 'mat3456' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:26:39] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 2 */ 'mat3457' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 2 */ 'mat3457' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:26:39] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 3 */ 'mat3458' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 3 */ 'mat3458' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:26:39] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 4 */ 'mat3459' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 4 */ 'mat3459' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:27:00] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 1 */ 'mat3456' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 1 */ 'mat3456' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:27:00] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 2 */ 'mat3457' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 2 */ 'mat3457' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:27:00] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 3 */ 'mat3458' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 3 */ 'mat3458' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:27:00] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 4 */ 'mat3459' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 4 */ 'mat3459' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:28:32] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:28:32] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:28:32] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:28:32] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:29:29] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:29:29] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:29:29] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:29:29] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:30:43] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:30:43] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:30:43] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:30:43] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:31:55] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:31:55] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:31:55] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:31:55] [ ERROR] [OdontologoDaoH2:41] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2023-05-26 12:32:03] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 12:32:03] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 12:32:03] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 12:32:03] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 12:32:25] [ INFO ] [OdontologoDaoH2:25] Odontologos registrados en el sistema: /n[]
+[2023-05-26 12:32:25] [ INFO ] [OdontologoDaoH2:66] []
+[2023-05-26 12:32:25] [ INFO ] [OdontologoDaoH2:25] Odontologos registrados en el sistema: /n[]
+[2023-05-26 12:34:54] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 12:34:54] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 12:34:54] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 12:34:54] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 12:34:54] [ INFO ] [OdontologoDaoH2:25] Odontologos registrados en el sistema: /n[Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:34:54] [ INFO ] [OdontologoDaoH2:74] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:34:54] [ INFO ] [OdontologoDaoH2:25] Odontologos registrados en el sistema: /n[Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:35:26] [ ERROR] [OdontologoDaoH2:74] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:36] Se registró exitosamente el odontologo: Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'} en la base de datos.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:36] Se registró exitosamente el odontologo: Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'} en la base de datos.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:36] Se registró exitosamente el odontologo: Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'} en la base de datos.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:36] Se registró exitosamente el odontologo: Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'} en la base de datos.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:25] Odontologos registrados en el sistema: /n[Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:74] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:36:06] [ INFO ] [OdontologoDaoH2:25] Odontologos registrados en el sistema: /n[Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:37:20] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 1 */ 'mat3456' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 1 */ 'mat3456' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:37:20] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 2 */ 'mat3457' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 2 */ 'mat3457' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:37:20] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 3 */ 'mat3458' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 3 */ 'mat3458' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:37:20] [ ERROR] [OdontologoDaoH2:41] Violación de indice de Unicidad ó Clave primaria: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 4 */ 'mat3459' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_2 ON PUBLIC.ODONTOLOGOS(NROMATRICULA) VALUES ( /* 4 */ 'mat3459' )"; SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:71] Listado de todos los odontologos en base de datos: [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:18] El odontologo Marcelo Muela se registró exitosamente en memoria.
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:18] El odontologo María Canino se registró exitosamente en memoria.
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:18] El odontologo Javier Paleta se registró exitosamente en memoria.
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:18] El odontologo Cristina Bracket se registró exitosamente en memoria.
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:25] Odontologos registrados en el sistema: /n[Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:74] [Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]
+[2023-05-26 12:37:21] [ INFO ] [OdontologoDaoH2:25] Odontologos registrados en el sistema: /n[Odontologo{nroMatricula='mat3456', nombre='Marcelo', apellido='Muela'}, Odontologo{nroMatricula='mat3457', nombre='María', apellido='Canino'}, Odontologo{nroMatricula='mat3458', nombre='Javier', apellido='Paleta'}, Odontologo{nroMatricula='mat3459', nombre='Cristina', apellido='Bracket'}]

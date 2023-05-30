@@ -15,8 +15,12 @@ public class OdontologoService {
         this.odontologoIDao = odontologoIDao;
     }
 
-    public Odontologo registrarOdontologo(Odontologo odontologo) throws SQLException {
-        odontologoIDao.registrar(odontologo);
+    public Odontologo registrarOdontologo(Odontologo odontologo) {
+        try {
+            odontologoIDao.registrar(odontologo);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
         return odontologo;
     }
 
